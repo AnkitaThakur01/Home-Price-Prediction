@@ -41,7 +41,7 @@ function getBathValue() {
           console.log(status);
       });
     }else{
-     const correctedVal =  prompt("Please Enter valid Area in Square Feet. \nArea cannot be less than 800Sq.Ft or greater than 15000Sq. Ft. \nPlease enter a valid figure below");
+     const correctedVal =  prompt("Please Enter valid Area in Square Feet. \nArea cannot be less than 800Sq.Ft or greater than 15000Sq. Ft. \n\nPlease enter a valid figure below");
      if(correctedVal){
        onClickedEstimatePrice(correctedVal);
      }
